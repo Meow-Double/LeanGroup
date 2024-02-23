@@ -1,0 +1,291 @@
+.dark-theme {
+  background-color: $color-bg-dark;
+
+  .nav__menu-link {
+    color: $color-default-dark;
+
+    &:hover {
+      color: $color-primary-dark;
+    }
+  }
+  .nav__language--active {
+    color: $color-primary-dark !important;
+  }
+  .nav__dropdown-item {
+    color: $color-default-dark;
+  }
+  .nav__dropdown-link:hover {
+    color: $color-primary-dark;
+  }
+  .nav__language {
+    color: $color-default-dark;
+  }
+  .about-company__title {
+    color: $color-default-dark;
+  }
+  .about-company__text {
+    color: $color-text-secondary-dark;
+  }
+  .certificates__title {
+    color: $color-default-dark;
+  }
+  .products__title {
+    color: $color-default-dark;
+  }
+  .products__btn {
+    border: 1px solid $color-default-dark;
+    color: $color-primary-dark;
+  }
+  .products__button--active {
+    color: $color-default-dark;
+    background-color: $color-primary-dark;
+  }
+  .button-two {
+    border: 1px solid $color-default-dark;
+    color: $color-primary-dark;
+
+    &:hover {
+      color: $color-default-dark;
+      background-color: $color-primary-dark;
+      border: 1px solid $color-primary-dark;
+    }
+  }
+  .button {
+    background-color: $color-primary-dark;
+    border: 1px solid $color-primary-dark;
+    color: $color-default-dark;
+
+    &:hover {
+      color: $color-primary-dark;
+      background-color: transparent;
+      border: 1px solid $color-primary-dark;
+    }
+  }
+  .team__title {
+    color: $color-default-dark;
+  }
+  .news__title {
+    color: $color-default-dark;
+  }
+
+  .lng-name-cl {
+    color: $color-primary-dark;
+  }
+  .footer__social {
+    border-bottom: 1px solid $color-default-dark;
+  }
+  .footer__contacts {
+    background-color: $color-bg-dark;
+  }
+  .footer__title {
+    color: $color-default-dark;
+  }
+  .footer__item-city {
+    color: $color-primary-dark;
+  }
+  .footer__item-title {
+    color: $color-default-dark;
+  }
+  .footer__item-tetx {
+    color: $color-text-secondary-dark;
+  }
+  .footer__info {
+    background-color: $color-bg-dark;
+  }
+  .footer__menu-title {
+    color: $color-default-dark;
+  }
+  .footer__menu-text {
+    color: $color-text-secondary-dark;
+  }
+  .footer__menu-link {
+    &:hover {
+      color: $color-primary-dark;
+    }
+  }
+  .footer__phone-title {
+    color: $color-primary-dark;
+  }
+  .footer__phone-link {
+    color: $color-text-secondary-dark;
+  }
+  .footer__copyright {
+    color: $color-text-secondary-dark;
+  }
+  .footer__item-link {
+    &:hover {
+      color: $color-primary-dark;
+    }
+  }
+  .certificates{
+    .slick-dots {
+    li.slick-active {
+      button {
+        background: $color-primary-dark;
+      }
+    }
+    button {
+      border: 1px solid $color-primary-dark;
+    }
+  }
+  }
+  .products{
+    .slick-dots {
+    li.slick-active {
+      button {
+        background: $color-primary-dark;
+      }
+    }
+    button {
+      border: 1px solid $color-primary-dark;
+    }
+  }
+  }
+  .header__slider {
+    .slick-dots {
+      li.slick-active {
+        button {
+          background: $color-primary-dark;
+        }
+      }
+      button {
+        border: 1px solid $color-primary-dark;
+      }
+    }
+  }
+  .other-pack__slider {
+    .slick-dots {
+      li.slick-active {
+        button {
+          background: $color-primary-dark;
+        }
+      }
+      button {
+        border: 1px solid $color-primary-dark;
+      }
+    }
+  }
+  
+  .team__content-title {
+    color: $color-primary-dark;
+  }
+  .team__content-text {
+    color: $color-text-secondary-dark;
+  }
+  .team__content-phone {
+    color: $color-default-dark;
+  }
+  .team__content-email {
+    color: $color-default-dark;
+  }
+  .news__date {
+    color: $color-text-secondary-dark;
+  }
+  .news__link {
+    color: $color-default-dark;
+  }
+  .header__about-text {
+    color: $color-text-secondary-dark;
+  }
+  .header--active {
+    color: $color-primary-dark;
+  }
+  .other-pack__title {
+    color: $color-default-dark;
+  }
+  .descr__title {
+    color: $color-default-dark;
+  }
+  .descr__marking-text {
+    color: $color-text-secondary-dark;
+  }
+  .descr__mark {
+    color: $color-primary-dark;
+  }
+  .descr__main-title {
+    color: $color-primary-dark;
+  }
+  .descr__info-title {
+    color: $color-default-dark;
+  }
+  .descr__view-title {
+    color: $color-default-dark;
+  }
+  .descr__info-text {
+    color: $color-text-secondary-dark;
+    border-bottom: 1px solid rgba($color-text-secondary-dark, 0.6);
+  }
+  .other-pack__item-name {
+    font-weight: 500;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+
+    &::before {
+      content: "";
+      background-image: url(../img/products-list-ico-dark.svg);
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+    }
+  }
+  // .header__title {
+  //   color: $color-default-dark;
+  // }
+  .header__title-info {
+    color: $color-default-dark;
+  }
+  .people__content {
+    color: $color-default-dark;
+  }
+}
+
+
+//-------burger--
+
+.dark-theme {
+  .burger__line {
+    background-color: $color-primary-dark;
+  }
+  .breadcrumbs--active {
+    color: $color-primary-dark;
+  }
+}
+
+.dark-theme {
+  .other-pack__text {
+    color: $color-text-secondary-dark;
+  }
+  .other-pack__title-text {
+    color: $color-text-secondary-dark;
+  }
+  .other-pack__item-name {
+    color: $color-primary-dark;
+  }
+  .other-pack__item-text {
+    color: $color-text-secondary-dark;
+  }
+  .descr__content-item {
+    background-color: $color-window-dark;
+    border-radius: 4px;
+  }
+  .descr__view-size-title{
+    color:$color-default-dark;
+  }
+}
+
+.dark-style {
+  display: none;
+}
+.dark-style--active {
+  display: block;
+}
+.light-style {
+  display: none;
+}
+.light-style--active {
+  display: block;
+}

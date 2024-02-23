@@ -1,0 +1,115 @@
+// ----------------Slider
+.other-pack {
+  .slick-dots {
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      margin: 0 8px;
+    }
+    li.slick-active {
+      button {
+        background: $color-primary;
+      }
+    }
+    button {
+      background-color: transparent;
+      border: 1px solid $color-primary;
+      border-radius: 50%;
+      width: 10px;
+      height: 10px;
+      padding: 0;
+      font-size: 0;
+    }
+  }
+}
+
+.certificates {
+  .slick-dots {
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      margin: 0 8px;
+    }
+    li.slick-active {
+      button {
+        background: $color-primary;
+      }
+    }
+    button {
+      background-color: transparent;
+      border: 1px solid $color-primary;
+      border-radius: 50%;
+      width: 10px;
+      height: 10px;
+      padding: 0;
+      font-size: 0;
+    }
+  }
+}
+.products {
+  .slick-dots {
+    button {
+display: none;
+    }
+  }
+}
+//--------Arrows-----
+
+.certificate {
+  // .certificate__arrow
+
+  &__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 5;
+  }
+
+  // .certificate__arrow-left
+
+  &__arrow-left {
+    left: 0;
+  }
+
+  // .certificate__arrow-right
+
+  &__arrow-right {
+    right: 0;
+  }
+}
+
+.products {
+  // .products__arrow
+
+  &__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  // .products__arrow-left
+
+  &__arrow-left {
+    left: 2px;
+  }
+
+  // .products__arrow-right
+
+  &__arrow-right {
+    right: 2px;
+  }
+}
